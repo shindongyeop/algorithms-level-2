@@ -5,4 +5,4 @@ def solution(n):
     answer = int(new)
     return answer
 
-print(solution(21345))
+print(solution(118372)
