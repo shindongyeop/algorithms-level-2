@@ -16,3 +16,10 @@ def solution2(n):
     return answer
 
 print(solution2(12))
+
+
+def solution(n):
+    for i in range (1, n+1):
+        if n / i == n // i:
+            answer += i
+    return answer

@@ -6,3 +6,9 @@ def solution(n):
     return answer
 
 print(solution(118372)
+      
+
+def solution2(n):
+    ls = list(str(n))
+    ls.sort(reverse = True)
+    return int("".join(ls))

@@ -5,3 +5,11 @@ def solution(n):
         return -1
     
 print(solution(121))
+
+
+def solution2(n):
+    x = int(n ** 0.5)
+    if n ** 0.5 == x:
+        return (x + 1) ** 2
+    else:
+        return -1
