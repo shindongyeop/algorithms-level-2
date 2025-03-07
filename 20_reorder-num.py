@@ -5,7 +5,7 @@ def solution(n):
     answer = int(new)
     return answer
 
-print(solution(118372)
+print(solution(118372))
       
 
 def solution2(n):

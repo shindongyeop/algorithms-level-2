@@ -10,3 +10,7 @@ def solution(x):
     print(solution(10)) #True
     print(solution(12)) #True
     print(solution(13)) # False
+    
+    
+    def solution(x):
+    return x % sum(int(i) for i in str(x)) == 0
